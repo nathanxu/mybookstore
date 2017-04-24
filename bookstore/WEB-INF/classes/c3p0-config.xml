@@ -22,9 +22,9 @@
 	<!-- 命名的配置 -->
 	<named-config name="wuhao">
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
-		<property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/bookstore</property>
+		<property name="jdbcUrl">jdbc:mysql://mysql-db:3306/bookstore</property>
 		<property name="user">root</property>
-		<property name="password">root</property>
+		<property name="password">123456</property>
     <!-- 如果池中数据连接不够时一次增长多少个 -->
 		<property name="acquireIncrement">5</property>
 		<property name="initialPoolSize">20</property>
