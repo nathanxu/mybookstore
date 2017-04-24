@@ -1,0 +1,5 @@
+﻿FROM registry.wise2c.com/library/mysql:5.6
+ADD db_update.sh /tmp/db_update.sh
+ADD db.conf /etc/bookstore/db.conf
+ADD boostore.sql /opt/bookstore/db_update.sql
+CMD /tmp/db_update.sh
