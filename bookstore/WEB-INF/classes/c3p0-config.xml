@@ -19,7 +19,7 @@
 			<property name="maxStatements">0</property>
 		</user-overrides>
 	</default-config> 
-	<!-- 命名的配置 -->
+
 	<named-config name="wuhao">
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
 		<property name="jdbcUrl">jdbc:mysql://mysql-db:3306/bookstore</property>
