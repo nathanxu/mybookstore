@@ -21,4 +21,4 @@ do
 
 done < /etc/bookstore/db.conf
 echo "begin to update databse"
-mysql -h $SERVER -u $USER --password=$PASSWORD < /opt/bookstore/db_update.sql >/tmp/db_update.log 2>&1
+mysql -h $SERVER -u $USER --password=$PASSWORD < /opt/bookstore/db_update.sql
