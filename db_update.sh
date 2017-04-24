@@ -2,7 +2,7 @@
 
 SERVER=mysql-db
 USER=root
-password=1
+PASSWORD=1
 while read line;
 do 
   key=${line%=*};val=${line#*=};
