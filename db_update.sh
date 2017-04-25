@@ -23,3 +23,7 @@ done < /etc/bookstore/db.conf
 echo "begin to update databse"
 echo "mysql -h $SERVER -u $USER --password=$PASSWORD"
 mysql -h $SERVER -u $USER --password=$PASSWORD < /opt/bookstore/db_update.sql
+while :
+do
+  sleep 120
+done
