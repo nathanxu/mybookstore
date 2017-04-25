@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 
 SERVER=mysql-db
 USER=root
