@@ -118,7 +118,7 @@ esac
 
 AGENT_ID="bk-server-1"
 APPLICATION_NAME="BOOKSTORE"
-AGENT_PATH="/opt/agent/"
+AGENT_PATH="/opt/agent"
 CATALINA_OPTS="$CATALINA_OPTS -javaagent:$AGENT_PATH/pinpoint-bootstrap-1.6.1.jar"
 CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.agentId=$AGENT_ID"
 CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.applicationName=$APPLICATION_NAME"
