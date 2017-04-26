@@ -68,6 +68,7 @@ INSERT INTO `category` VALUES ('3', 'horn');
 INSERT INTO `category` VALUES ('4', 'warror');
 INSERT INTO `category` VALUES ('5', 'technology');
 INSERT INTO `category` VALUES ('6', 'Countries');
+INSERT INTO `category` VALUES ('7', 'Drama');
 
 -- ----------------------------
 -- Table structure for `book`
