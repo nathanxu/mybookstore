@@ -69,7 +69,7 @@ INSERT INTO `category` VALUES ('4', 'warror');
 INSERT INTO `category` VALUES ('5', 'technology');
 INSERT INTO `category` VALUES ('6', 'Countries');
 INSERT INTO `category` VALUES ('7', 'Drama');
-
+INSERT INTO `category` VALUES ('8', 'Drama2');
 -- ----------------------------
 -- Table structure for `book`
 -- ----------------------------
